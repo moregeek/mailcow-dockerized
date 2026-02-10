@@ -239,7 +239,7 @@ TZ=${MAILCOW_TZ}
 
 # Fixed project name
 # Please use lowercase letters only
-COMPOSE_PROJECT_NAME=mailcowdockerized
+COMPOSE_PROJECT_NAME=${MAILCOW_COMPOSE_PROJECT_NAME:-"mailcowdockerized"}
 
 # Used Docker Compose version
 # Switch here between native (compose plugin) and standalone
